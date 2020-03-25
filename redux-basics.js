@@ -17,7 +17,8 @@ console.log (store.getState());
 
 // Dispatching and Action
 store.dispatch({type: 'INC_COUNTER'});
-store.dispatch({type: 'ADD_COUNTER'});
+store.dispatch({type: 'ADD_COUNTER', value: 10});
+console.log (store.getState());
 
 // Subscription
 
